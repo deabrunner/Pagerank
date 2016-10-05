@@ -8,6 +8,7 @@ function A=Abar(filename)
              if h ~= i;
                  if h > 0; 
                     A(h,i) = 1;
+                    A
                  end                 
              end              
         end
