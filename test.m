@@ -1,0 +1,1 @@
+A=dlmread('graph1a.txt');
