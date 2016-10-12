@@ -13,7 +13,5 @@ function C=Amat(filename);
     
     C = bsxfun(@rdivide, A, B);
     C(isnan(C)) = 0;
-    
-    global D
-    D = sum(C);
+   
 end
